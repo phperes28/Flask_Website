@@ -1776,3 +1776,16 @@ padding-top:15px;
 #historia{
 padding:8%;
 }
+
+.casa{
+ max-height:500px;
+ padding:0;
+}
+
+.d-flex p-2{
+padding:0;
+}
+
+.planta{
+padding:0;
+}
