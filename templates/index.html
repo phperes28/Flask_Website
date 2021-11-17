@@ -47,6 +47,17 @@
   <link href="static/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="static/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+  <!-- Adicionados para Galeria  -->
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+<!------ ------------------- ---------->
+
   <!-- Template Main CSS File -->
   <link href="/static/css/style.css" rel="stylesheet">
 
@@ -235,7 +246,7 @@ O Residêncial Leonídio foi projetado para ter tudo o que você precisa para tr
 
 
 
-    <!-- ======= SUA CASA PODE SER ASSIM ======= -->
+     <!-- ======= SUA CASA PODE SER ASSIM ======= -->
 
     <section id="sua-casa" class="">
       <div class="container" data-aos="fade-up">
@@ -250,17 +261,20 @@ O Residêncial Leonídio foi projetado para ter tudo o que você precisa para tr
           <div class="row planta-casa">
                   <div class="col-lg-8 col-md-12  align-items-center  planta" data-aos="fade-up" data-aos-delay="100">
 
-                      <img src="static/img/fachada.jpg" class="rounded img-fluid w-100 casa-1" alt="...">
+                      <a href="static/img/fachada.jpg" class="fancylight popup-btw" data-fancybox-group="gallery01">
+                        <img class="img-fluid" src="static/img/fachada.jpg" alt="">
+                      </a>
 
                   </div>
                   <div class="col-lg-2 col-md-6 align-items-stretch  planta" data-aos="fade-up" data-aos-delay="100">
-
-                      <img src="static/img/planta01.jpg" class="img-fluid w-100 casa-2" alt="...">
-
+                      <a href="static/img/planta01.jpg" class="fancylight popup-btw" data-fancybox-group="gallery01">
+                        <img class="img-fluid" src="static/img/planta01.jpg" alt="">
+                      </a>
                   </div>
                   <div class="col-lg-2 col-md-6 align-items-stretch  planta" data-aos="fade-up" data-aos-delay="100">
-
-                      <img src="static/img/planta02.jpg" class="img-fluid w-100 casa-3" alt="...">
+                       <a href="static/img/planta02.jpg" class="fancylight popup-btw"  data-fancybox-group="gallery01">
+                        <img class="img-fluid" src="static/img/planta02.jpg" alt="">
+                      </a>
                   </div>
           </div>
           </div>
@@ -304,107 +318,80 @@ O Residêncial Leonídio foi projetado para ter tudo o que você precisa para tr
     </section><!-- End Clients Section -->
 
 
+
  <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
       <div class="container" data-aos="fade-up">
 
         <div class="fotos-header">
-          <h2 class="heading-2 center"><strong class="destaque-h2">Fotos</strong> do Loteamento</h2>
+          <h2 class="heading-2 center"><strong class="destaque-h2">Galeria</strong></h2>
         </div>
 
 
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="static/img/mockup1.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>App</p>
-              <a href="static/img/portfolio/mock1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+          <div class="portfolio-item row">
+            <div class="item selfie col-lg-4 col-md-4 col-6 col-sm">
+               <a href="static/img/portfolio/mock1.jpeg" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="static/img/portfolio/mock1.jpeg" alt="">
+               </a>
             </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="static/img/portfolio/mock2.jpeg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="static/img/portfolio/mock3.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            <div class="item gts col-lg-4 col-md-4 col-6 col-sm">
+               <a href="static/img/portfolio/mock2.jpeg" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="static/img/portfolio/mock2.jpeg" alt="">
+               </a>
             </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="static/img/portfolio/mock4.jpeg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 2</h4>
-              <p>App</p>
-              <a href="static/img/portfolio/mock5.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            <div class="item selfie col-lg-4 col-md-4 col-6 col-sm">
+               <a href="static/img/portfolio/mock3.jpeg" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="static/img/portfolio/mock3.jpeg" alt="">
+               </a>
             </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/mock6.jpeg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 2</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/mock7.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            <div class="item gts col-lg-4 col-md-4 col-6 col-sm">
+               <a href="static/img/portfolio/mock4.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="static/img/portfolio/mock4.jpg" alt="">
+               </a>
             </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/mock8.jpeg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 2</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/mock9.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            <div class="item gts col-lg-4 col-md-4 col-6 col-sm">
+               <a href="static/img/portfolio/mock5.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="static/img/portfolio/mock5.jpg" alt="">
+               </a>
             </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 3</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            <div class="item gts col-lg-4 col-md-4 col-6 col-sm">
+               <a href="static/img/portfolio/mock6.jpeg" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="static/img/portfolio/mock6.jpeg" alt="">
+               </a>
             </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 1</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            <div class="item lap col-lg-4 col-md-4 col-6 col-sm">
+               <a href="static/img/portfolio/mock7.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="static/img/portfolio/mock7.jpg" alt="">
+               </a>
             </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 3</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            <div class="item lap col-lg-4 col-md-4 col-6 col-sm">
+               <a href="static/img/portfolio/mock8.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="static/img/portfolio/mock8.jpg" alt="">
+               </a>
             </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            <div class="item gts col-lg-4 col-md-4 col-6 col-sm">
+               <a href="static/img/portfolio/mock9.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="static/img/portfolio/mock9.jpg" alt="">
+               </a>
             </div>
-          </div>
+            <div class="item lap col-lg-4 col-md-4 col-6 col-sm">
+               <a href="static/img/portfolio/imagem_aerea3.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="static/img/portfolio/imagem_aerea3.jpg" alt="">
+               </a>
+            </div>
+            <div class="item gts col-lg-4 col-md-4 col-6 col-sm">
+               <a href="static/img/portfolio/imagem_aerea4.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="static/img/portfolio/imagem_aerea4.jpg" alt="">
+               </a>
+            </div>
+            <div class="item gts col-lg-4 col-md-4 col-6 col-sm">
+               <a href="static/img/portfolio/imagem_aerea6.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="static/img/portfolio/imagem_aerea6.jpg" alt="">
+               </a>
+            </div>
 
         </div>
 
@@ -742,6 +729,19 @@ O Residêncial Leonídio foi projetado para ter tudo o que você precisa para tr
       </div>
     </div>
   </footer><!-- End Footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>

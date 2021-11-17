@@ -405,7 +405,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 90vh;
-  background: url("../img/casa5.jpg") top center;
+  background: url("../img/casas2.jpg") top center;
   background-size: cover;
   position: relative;
   padding: 0;
@@ -1795,6 +1795,7 @@ padding:8%;
 
 .casa{
 padding-bottom:3%;
+padding:0;
 
 
 }
@@ -1803,12 +1804,14 @@ padding-bottom:3%;
 .casa-1{
 
  max-height:400px;
+ padding:0;
 
 
 
 }
 .casa-2{
 max-height:400px;
+
 
 
 }
@@ -1821,7 +1824,7 @@ max-height:400px;
 
 
 .d-flex p-2{
-padding:0;
+
 }
 
 .suacasa{
@@ -1838,6 +1841,7 @@ padding:0;
 
 .planta-casa{
 column-fill: balance;
+padding:0;
 
 }
 
@@ -1881,4 +1885,31 @@ text-color:white;
 .bold-text-3{
 align-items:center;
 text-color:white;
+}
+
+/* PORTFOLIO */
+
+.portfolio-menu{
+	text-align:center;
+}
+.portfolio-menu ul li{
+	display:inline-block;
+	margin:0;
+	list-style:none;
+	padding:10px 15px;
+	cursor:pointer;
+	-webkit-transition:all 05s ease;
+	-moz-transition:all 05s ease;
+	-ms-transition:all 05s ease;
+	-o-transition:all 05s ease;
+	transition:all .5s ease;
+}
+
+.portfolio-item{
+	/*width:100%;*/
+}
+.portfolio-item .item{
+	/*width:303px;*/
+	float:left;
+	margin-bottom:10px;
 }
