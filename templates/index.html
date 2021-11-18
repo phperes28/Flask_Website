@@ -1,4 +1,4 @@
-
+{% import "bootstrap/wtf.html" as wtf %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -90,7 +90,7 @@
 
           <li><a class="nav-link scrollto" href="#caracteristicas">Características</a></li>
 
-          <li><a class="nav-link scrollto " href="#portfolio">Portfólio</a></li>
+          <li><a class="nav-link scrollto " href="#portfolio">Galeria</a></li>
           <li><a class="nav-link scrollto" href="#historia">Nossa História</a></li>
 
           <li><a class="nav-link scrollto" href="#contact">Contato</a></li>
@@ -259,21 +259,21 @@ O Residêncial Leonídio foi projetado para ter tudo o que você precisa para tr
         <div class="container suacasa">
         <div class="container casa" data-aos="fade-up">
           <div class="row planta-casa">
-                  <div class="col-lg-8 col-md-12  align-items-center  planta" data-aos="fade-up" data-aos-delay="100">
+                  <div class="col-lg-8 col-md-12 col-sm-12   align-items-center  planta" data-aos="fade-up" data-aos-delay="100">
 
                       <a href="static/img/fachada.jpg" class="fancylight popup-btw" data-fancybox-group="gallery01">
-                        <img class="img-fluid" src="static/img/fachada.jpg" alt="">
+                        <img class="img-fluid w-100 casa-1" src="static/img/fachada.jpg" alt="">
                       </a>
 
                   </div>
-                  <div class="col-lg-2 col-md-6 align-items-stretch  planta" data-aos="fade-up" data-aos-delay="100">
+                  <div class="col-lg-2 col-md-6 col-sm-6 align-items-stretch  planta" data-aos="fade-up" data-aos-delay="100">
                       <a href="static/img/planta01.jpg" class="fancylight popup-btw" data-fancybox-group="gallery01">
-                        <img class="img-fluid" src="static/img/planta01.jpg" alt="">
+                        <img class="img-fluid w-100  casa-2" src="static/img/planta01.jpg" alt="">
                       </a>
                   </div>
-                  <div class="col-lg-2 col-md-6 align-items-stretch  planta" data-aos="fade-up" data-aos-delay="100">
+                  <div class="col-lg-2 col-md-6 col-sm-6  align-items-stretch  planta" data-aos="fade-up" data-aos-delay="100">
                        <a href="static/img/planta02.jpg" class="fancylight popup-btw"  data-fancybox-group="gallery01">
-                        <img class="img-fluid" src="static/img/planta02.jpg" alt="">
+                        <img class="img-fluid w-100  casa-3" src="static/img/planta02.jpg" alt="">
                       </a>
                   </div>
           </div>
@@ -410,40 +410,40 @@ O Residêncial Leonídio foi projetado para ter tudo o que você precisa para tr
 
       <div class="row">
                 <div id="row" class="col-lg-2 col-md-6 align-items-stretch">
-          <div class="div-grafico"><img src="https://vivaurba.com.br/wp-content/themes/urbamais/images/icone-pag_empreendimentos-drenagem.png" width="80" alt="Icone" class="image-7">
-            <div data-w-id="0a78eb64-b467-5d9e-5e86-3b024f14cf8d" style="opacity:0; height: 98%;" class="div-evolucao areas-edificaveis"></div>
+          <div class="text-center"><img src="static/img/icons/drenagem.png" width="80" alt="Icone" class="image-7">
+            <div data-w-id="0a78eb64-b467-5d9e-5e86-3b024f14cf8d" style="opacity:0; height: 98%;" class="porcentagem"></div>
           </div>
           <div class="text-center">Drenagem<br><strong class="bold-text-3">98%</strong></div>
         </div>
                                 <div id="w-node-1dce1ffae6ac-c488da31" class="col-lg-2 col-md-6 align-items-stretch">
-          <div class="div-grafico"><img src="https://vivaurba.com.br/wp-content/themes/urbamais/images/icone-pag_empreendimentos-pavimentacao.png" width="80" alt="Icone" class="image-7">
-            <div data-w-id="85a3680c-d7b6-e02a-6a0e-1dce1ffae6af" style="opacity:0; height: 100%;" class="div-evolucao pavimentacao"></div>
+          <div class="text-center"><img src="static/img/icons/pavimentacao.png" width="80" alt="Icone" class="image-7">
+            <div data-w-id="85a3680c-d7b6-e02a-6a0e-1dce1ffae6af" style="opacity:0; height: 100%;" class="porcentagem"></div>
           </div>
-          <div class="text-block-12">Pavimentação<br><strong class="bold-text-3">100%</strong></div>
+          <div class="text-center">Pavimentação<br><strong class="bold-text-3">100%</strong></div>
         </div>
                                 <div id="w-node-196d89487d94-c488da31" class="col-lg-2 col-md-6 align-items-stretch">
-          <div class="div-grafico"><img src="https://vivaurba.com.br/wp-content/themes/urbamais/images/icone-pag_empreendimentos-terraplanagem.png" width="80" alt="Icone" class="image-7">
-            <div data-w-id="becaf4aa-22bf-6395-f491-196d89487d97" style="opacity:0; height: 96%;" class="div-evolucao terraplanagem"></div>
+          <div class="text-center"><img src="static/img/icons/terraplanagem.png" width="80" alt="Icone" class="image-7">
+            <div data-w-id="becaf4aa-22bf-6395-f491-196d89487d97" style="opacity:0; height: 96%;" class="porcentagem"></div>
           </div>
-          <div class="text-block-12">Terraplanagem<br><strong class="bold-text-3">96%</strong></div>
+          <div class="text-center">Terraplanagem<br><strong class="bold-text-3">96%</strong></div>
         </div>
                         <div id="w-node-fd257c06e2f2-c488da31" class="col-lg-2 col-md-6 align-items-stretch">
-          <div class="div-grafico"><img src="https://vivaurba.com.br/wp-content/themes/urbamais/images/icone-pag_empreendimentos-agua-esgoto.png" width="80" alt="Icone" class="image-7">
-            <div data-w-id="33ff7a00-029d-371e-a001-fd257c06e2f5" style="opacity:0; height: 91%;" class="div-evolucao agua-e-esgoto"></div>
+          <div class="text-center"><img src="static/img/icons/esgoto.png" width="80" alt="Icone" class="image-7">
+            <div data-w-id="33ff7a00-029d-371e-a001-fd257c06e2f5" style="opacity:0; height: 91%;" class="porcentagem"></div>
           </div>
-          <div class="text-block-12">Água e Esgoto<br><strong class="bold-text-3">91%</strong></div>
+          <div class="text-center">Água e Esgoto<br><strong class="bold-text-3">91%</strong></div>
         </div>
                         <div id="w-node-3c3663ec4719-c488da31" class="col-lg-2 col-md-6 align-items-stretch">
-          <div class="div-grafico"><img src="https://vivaurba.com.br/wp-content/themes/urbamais/images/icone-pag_empreendimentos-eletrica.png" width="80" alt="Icone" class="image-7">
-            <div data-w-id="a078d2ae-fdf4-a339-e708-3c3663ec471c" style="opacity:0; height: 90%;" class="div-evolucao eletrica"></div>
+          <div class="text-center"><img src="static/img/icons/eletrica.png" width="80" alt="Icone" class="image-7">
+            <div data-w-id="a078d2ae-fdf4-a339-e708-3c3663ec471c" style="opacity:0; height: 90%;" class="porcentagem"></div>
           </div>
-          <div class="text-block-12">Elétrica<br><strong class="bold-text-3">90%</strong></div>
+          <div class="text-center">Elétrica<br><strong class="bold-text-3">90%</strong></div>
         </div>
                                 <div id="w-node-3b024f14cf8a-c488da31" class="col-lg-2 col-md-6 align-items-stretch">
-          <div class="div-grafico"><img src="https://vivaurba.com.br/wp-content/themes/urbamais/images/icone-pag_empreendimentos-areas-edificaveis.png" width="80" alt="Icone" class="image-7">
-            <div data-w-id="0a78eb64-b467-5d9e-5e86-3b024f14cf8d" style="opacity:0; height: 89%;" class="div-evolucao areas-edificaveis"></div>
+          <div class="text-center"><img src="static/img/icons/edificaveis.png" width="80" alt="Icone" class="image-7">
+            <div data-w-id="0a78eb64-b467-5d9e-5e86-3b024f14cf8d" style="opacity:0; height: 89%;" class="porcentagem"></div>
           </div>
-          <div class="text-block-12">Áreas Edificáveis<br><strong class="bold-text-3">89%</strong></div>
+          <div class="text-center">Áreas Edificáveis<br><strong class="bold-text-3">89%</strong></div>
         </div>
         </div>
 
@@ -638,28 +638,10 @@ O Residêncial Leonídio foi projetado para ter tudo o que você precisa para tr
 
         </div>
 
-        <div class="col-lg-6 mt-4 mt-lg-0">
-          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-            <div class="row">
-              <div class="col-md-6 form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Nome" required>
-              </div>
-              <div class="col-md-6 form-group mt-3 mt-md-0">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
-              </div>
-            </div>
-            <div class="form-group mt-3">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" required>
-            </div>
-            <div class="form-group mt-3">
-              <textarea class="form-control" name="message" rows="5" placeholder="Mensagem" required></textarea>
-            </div>
-            <div class="my-3">
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your message has been sent. Thank you!</div>
-            </div>
-            <div class="text-center"><button type="submit">Send Message</button></div>
+        <div class="col-lg-6 mt-4 mt-lg-0 php-email" >
+          <form method=post class="php-email">
+            {{ form.csrf_token }}
+            {{ wtf.quick_form(form, novalidate=True, button_map={"submit": "success"}) }}
           </form>
         </div>
 
@@ -676,33 +658,27 @@ O Residêncial Leonídio foi projetado para ter tudo o que você precisa para tr
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-3 col-md-6 align-items-center">
-            <div class="footer-info">
-              <h3>AV Empreendimentos</h3>
 
 
-            </div>
-          </div>
+          <div class="col-lg-4 col-md-12 align-items-center ">
 
-          <div class="col-lg-3 col-md-6 align-items-center ">
-
-            <p>
+            <p class="footer-info text-center">
                 A108 Adam Street <br>
                 NY 535022, USA<br><br>
 
               </p>
           </div>
 
-          <div class="col-lg-3 col-md-6 align-items-center ">
+          <div class="col-lg-4 col-md-12 align-items-center ">
 
-            <p class="align-items-center email-tel">
+            <p class="footer-info text-center">
                 <strong>Phone:</strong> +1 5589 55488 55<br>
                 <strong>Email:</strong> info@example.com<br>
               </p>
           </div>
 
-          <div class="col-lg-3 col-md-6 align-items-center ">
-           <div class="social-links mt-3">
+          <div class="col-lg-4 col-md-12 align-items-center ">
+           <div class="social-links mt-3 text-center">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
                 <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
                 <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
@@ -729,16 +705,6 @@ O Residêncial Leonídio foi projetado para ter tudo o que você precisa para tr
       </div>
     </div>
   </footer><!-- End Footer -->
-
-
-
-
-
-
-
-
-
-
 
 
 

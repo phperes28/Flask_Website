@@ -1025,7 +1025,44 @@ padding-bottom: 30px;
   .cta {
     background-attachment: fixed;
   }
+
+.image-7{
+margin-bottom:8%;
+border-style: solid;
 }
+
+porcentagem{
+margin-bottom:80%;
+}
+
+
+
+}
+
+.div-grafico{
+display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+
+
+
+
+.test{
+display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.test1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+
+
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
@@ -1717,7 +1754,9 @@ padding-bottom: 30px;
     padding:0;
 }
 
-
+.AV{
+font-size:20px;
+}
 
 
 .destaque-h2 {
