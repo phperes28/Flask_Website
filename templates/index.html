@@ -1,4 +1,11 @@
 {% import "bootstrap/wtf.html" as wtf %}
+{% if scrollToAnchor %}
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        document.location.hash = '#{{ scrollToAnchor }}';
+    });
+</script>
+{% endif %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,6 +24,7 @@
 <meta name="twitter:title" content="Terrenos em Alexânia - GO - Residêncial Leonídio - AV" />
 <meta name="twitter:description" content="Residêncial Leonídio, um empreendimento AV em Alexânia - GO. Veja como a AV entrega qualidade de vida em forma de bairro planejado!" />
 <!-- /Rank Math WordPress SEO plugin -->
+
 
 
 
@@ -144,15 +152,15 @@
                 <div class="count-box">
                   <i class="bi bi-clock"></i>
 
-                  <h6 class="legenda">Obras em Andamento</h6>
+                  <p class="legenda"><strong>Obras em Andamento</strong></p>
                 </div>
               </div>
 
               <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
                 <div class="count-box">
                   <i class="bi bi-award"></i>
-
-                  <h6 class="legenda">90% Vendido</h6>
+                  <span data-purecounter-start="0" data-purecounter-end="90" data-purecounter-duration="1" class="purecounter percentage"></span>
+                  <p>Vendido</p>
                 </div>
 
               </div>
@@ -225,7 +233,7 @@
           </div>
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
             <div class="card">
-              <img src="static/img/comercial3.jpg" class="card-img-top" alt="...">
+              <img src="static/img/comercio.jpg" class="card-img-top" alt="...">
               <div class="card-icon">
                 <i class="ri-movie-2-line"></i>
               </div>
@@ -259,19 +267,19 @@ O Residêncial Leonídio foi projetado para ter tudo o que você precisa para tr
         <div class="container suacasa">
         <div class="container casa" data-aos="fade-up">
           <div class="row planta-casa">
-                  <div class="col-lg-8 col-md-12 col-sm-12   align-items-center  planta" data-aos="fade-up" data-aos-delay="100">
+                  <div class="col-lg-8 col-md-12 col-sm-4   align-items-center  planta" data-aos="fade-up" data-aos-delay="100">
 
                       <a href="static/img/fachada.jpg" class="fancylight popup-btw" data-fancybox-group="gallery01">
                         <img class="img-fluid w-100 casa-1" src="static/img/fachada.jpg" alt="">
                       </a>
 
                   </div>
-                  <div class="col-lg-2 col-md-6 col-sm-6 align-items-stretch  planta" data-aos="fade-up" data-aos-delay="100">
+                  <div class="col-lg-2 col-md-3 col-sm-4 align-items-center  planta" data-aos="fade-up" data-aos-delay="100">
                       <a href="static/img/planta01.jpg" class="fancylight popup-btw" data-fancybox-group="gallery01">
                         <img class="img-fluid w-100  casa-2" src="static/img/planta01.jpg" alt="">
                       </a>
                   </div>
-                  <div class="col-lg-2 col-md-6 col-sm-6  align-items-stretch  planta" data-aos="fade-up" data-aos-delay="100">
+                  <div class="col-lg-2 col-md-3 col-sm-4  align-items-center  planta" data-aos="fade-up" data-aos-delay="100">
                        <a href="static/img/planta02.jpg" class="fancylight popup-btw"  data-fancybox-group="gallery01">
                         <img class="img-fluid w-100  casa-3" src="static/img/planta02.jpg" alt="">
                       </a>
@@ -409,38 +417,38 @@ O Residêncial Leonídio foi projetado para ter tudo o que você precisa para tr
     <div class="container-padrao">
 
       <div class="row">
-                <div id="row" class="col-lg-2 col-md-6 align-items-stretch">
-          <div class="text-center"><img src="static/img/icons/drenagem.png" width="80" alt="Icone" class="image-7">
+                <div id="row" class="col-lg-2 col-md-6 col-sm-6 align-items-stretch">
+          <div class="text-center image-7"><img src="static/img/icons/drenagem1.png" width="80" alt="Icone" class="image-7">
             <div data-w-id="0a78eb64-b467-5d9e-5e86-3b024f14cf8d" style="opacity:0; height: 98%;" class="porcentagem"></div>
           </div>
           <div class="text-center">Drenagem<br><strong class="bold-text-3">98%</strong></div>
         </div>
-                                <div id="w-node-1dce1ffae6ac-c488da31" class="col-lg-2 col-md-6 align-items-stretch">
-          <div class="text-center"><img src="static/img/icons/pavimentacao.png" width="80" alt="Icone" class="image-7">
+        <div id="w-node-1dce1ffae6ac-c488da31" class="col-lg-2 col-md-6 col-sm-2 align-items-stretch">
+          <div class="text-center"><img src="static/img/icons/pavimentacao1.png" width="80" alt="Icone" class="image-7">
             <div data-w-id="85a3680c-d7b6-e02a-6a0e-1dce1ffae6af" style="opacity:0; height: 100%;" class="porcentagem"></div>
           </div>
           <div class="text-center">Pavimentação<br><strong class="bold-text-3">100%</strong></div>
         </div>
-                                <div id="w-node-196d89487d94-c488da31" class="col-lg-2 col-md-6 align-items-stretch">
-          <div class="text-center"><img src="static/img/icons/terraplanagem.png" width="80" alt="Icone" class="image-7">
+        <div id="w-node-196d89487d94-c488da31" class="col-lg-2 col-md-6 col-sm-2 align-items-stretch">
+          <div class="text-center"><img src="static/img/icons/terraplanagem1.png" width="80" alt="Icone" class="image-7">
             <div data-w-id="becaf4aa-22bf-6395-f491-196d89487d97" style="opacity:0; height: 96%;" class="porcentagem"></div>
           </div>
           <div class="text-center">Terraplanagem<br><strong class="bold-text-3">96%</strong></div>
         </div>
-                        <div id="w-node-fd257c06e2f2-c488da31" class="col-lg-2 col-md-6 align-items-stretch">
-          <div class="text-center"><img src="static/img/icons/esgoto.png" width="80" alt="Icone" class="image-7">
+        <div id="w-node-fd257c06e2f2-c488da31" class="col-lg-2 col-md-6 col-sm-2 align-items-stretch">
+          <div class="text-center"><img src="static/img/icons/esgoto1.png" width="80" alt="Icone" class="image-7">
             <div data-w-id="33ff7a00-029d-371e-a001-fd257c06e2f5" style="opacity:0; height: 91%;" class="porcentagem"></div>
           </div>
           <div class="text-center">Água e Esgoto<br><strong class="bold-text-3">91%</strong></div>
         </div>
-                        <div id="w-node-3c3663ec4719-c488da31" class="col-lg-2 col-md-6 align-items-stretch">
-          <div class="text-center"><img src="static/img/icons/eletrica.png" width="80" alt="Icone" class="image-7">
+        <div id="w-node-3c3663ec4719-c488da31" class="col-lg-2 col-md-6 col-sm-2 align-items-stretch">
+          <div class="text-center"><img src="static/img/icons/eletrica1.png" width="80" alt="Icone" class="image-7">
             <div data-w-id="a078d2ae-fdf4-a339-e708-3c3663ec471c" style="opacity:0; height: 90%;" class="porcentagem"></div>
           </div>
           <div class="text-center">Elétrica<br><strong class="bold-text-3">90%</strong></div>
         </div>
-                                <div id="w-node-3b024f14cf8a-c488da31" class="col-lg-2 col-md-6 align-items-stretch">
-          <div class="text-center"><img src="static/img/icons/edificaveis.png" width="80" alt="Icone" class="image-7">
+        <div id="w-node-3b024f14cf8a-c488da31" class="col-lg-2 col-md-6 col-sm-2 align-items-stretch">
+          <div class="text-center"><img src="static/img/icons/edificaveis1.png" width="80" alt="Icone" class="image-7">
             <div data-w-id="0a78eb64-b467-5d9e-5e86-3b024f14cf8d" style="opacity:0; height: 89%;" class="porcentagem"></div>
           </div>
           <div class="text-center">Áreas Edificáveis<br><strong class="bold-text-3">89%</strong></div>
@@ -642,6 +650,18 @@ O Residêncial Leonídio foi projetado para ter tudo o que você precisa para tr
           <form method=post class="php-email">
             {{ form.csrf_token }}
             {{ wtf.quick_form(form, novalidate=True, button_map={"submit": "success"}) }}
+            <!doctype html>
+<title>My Application</title>
+{% with messages = get_flashed_messages() %}
+  {% if messages %}
+
+    {% for message in messages %}
+      <p>{{ message }}</p>
+    {% endfor %}
+
+  {% endif %}
+{% endwith %}
+
           </form>
         </div>
 
@@ -663,8 +683,9 @@ O Residêncial Leonídio foi projetado para ter tudo o que você precisa para tr
           <div class="col-lg-4 col-md-12 align-items-center ">
 
             <p class="footer-info text-center">
-                A108 Adam Street <br>
-                NY 535022, USA<br><br>
+              <br>
+                Av. 59 Reserva Leonídio Ferreira Residencial<br> Alexânia, GO, Brazil <br>
+
 
               </p>
           </div>
@@ -672,7 +693,8 @@ O Residêncial Leonídio foi projetado para ter tudo o que você precisa para tr
           <div class="col-lg-4 col-md-12 align-items-center ">
 
             <p class="footer-info text-center">
-                <strong>Phone:</strong> +1 5589 55488 55<br>
+              <br>
+                <strong>Telefone:</strong> +1 5589 55488 55<br>
                 <strong>Email:</strong> info@example.com<br>
               </p>
           </div>
