@@ -85,7 +85,8 @@ def home():
                 flash("Sua mensagem foi enviada!")
             except Exception as e :
                 print(f'Exception Occured ! \n {e}')
-                error = 'Erro ao enviar mensagem'
+                error = '' \
+                        ''
             finally:
 
                 return render_template("index.html", scrollToAnchor="contact", form=form)

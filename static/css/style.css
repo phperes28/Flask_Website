@@ -1,9 +1,4 @@
-/**
-* Template Name: Dewi - v4.3.0
-* Template URL: https://bootstrapmade.com/dewi-free-multi-purpose-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 
 /*--------------------------------------------------------------
 # General
@@ -1029,6 +1024,7 @@ padding-bottom: 30px;
 .image-7{
 margin-bottom:8%;
 
+
 width:80;
 }
 
@@ -1036,6 +1032,9 @@ porcentagem{
 margin-bottom:80%;
 }
 
+.four{
+max-width:40px;
+}
 
 
 }
@@ -1805,7 +1804,7 @@ JUNTAR AS 3 IMAGENS NO CANVA E NO CLICK ABRIR CARROUSEL COM AS 3 IMAGENS
 
 .legenda{
 
-padding-top:10%;
+padding-top:15%;
 
 }
 
@@ -1845,6 +1844,11 @@ padding:0;
  max-height:400px;
  padding:0;
 
+@media (max-width: 2500px){
+    .casa-1 {
+        max-height:20px;
+    }
+}
 
 
 }
@@ -1964,6 +1968,5 @@ margin:0;
 content: "%";
 
 }
-
 
 
