@@ -1021,8 +1021,7 @@ padding-bottom: 30px;
     background-attachment: fixed;
   }
 
-.image-7{
-margin-bottom:8%;
+
 
 
 width:80;
@@ -1032,9 +1031,7 @@ porcentagem{
 margin-bottom:80%;
 }
 
-.four{
-max-width:40px;
-}
+
 
 
 }
@@ -1044,9 +1041,6 @@ display: flex;
  justify-content: center;
  align-items: center;
 }
-
-
-
 
 
 .test{
@@ -1834,6 +1828,7 @@ padding:8%;
 .casa{
 padding-bottom:3%;
 padding:0;
+width:100%;
 
 
 }
@@ -1841,29 +1836,43 @@ padding:0;
 
 .casa-1{
 
- max-height:400px;
+ max-height:402px;
  padding:0;
+ width:100;
 
-@media (max-width: 2500px){
-    .casa-1 {
-        max-height:20px;
-    }
+}
+
+@media (max-width:600px) {
+  #casa{
+    content:url("static/img/Logos/logo3.png");
+
+  }
+
 }
 
 
-}
+
 .casa-2{
-max-height:400px;
-
-
+max-height:393px;
 
 }
+
+@media (max-width:600px) {
+  .casa-2{
+    display: none;
+  }
+}
+
 
 .casa-3{
-max-height:400px;
+max-height:393px;
 
 }
-
+@media (max-width:600px) {
+  .casa-3{
+    display: none;
+  }
+}
 
 
 .d-flex p-2{
@@ -1970,3 +1979,40 @@ content: "%";
 }
 
 
+.progress{
+
+}
+
+@media only screen and (max-width: 600px) {
+  .progress {
+
+
+
+  }
+}
+
+
+
+.image-7{
+margin-bottom:8%;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .image-7{
+    margin-bottom:5%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+.valor{
+padding-bottom:5%;
+}
+}
+
+
+@media only screen and (max-width: 600px) {
+#obras{
+padding:15%;
+}
+}
