@@ -307,5 +307,7 @@
 
 
 
-$(".fancybox").fancybox();
+
+
+
 
