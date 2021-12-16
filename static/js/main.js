@@ -60,6 +60,7 @@
   window.addEventListener('load', navbarlinksActive)
   onscroll(document, navbarlinksActive)
 
+
   /**
    * Scrolls to an element with header offset
    */
@@ -130,7 +131,7 @@
   }, true)
 
   /**
-   * Scrool with ofset on links with a class name .scrollto
+   * Scroll with offset on links with a class name .scrollto
    */
   on('click', '.scrollto', function(e) {
     if (select(this.hash)) {
@@ -148,7 +149,7 @@
   }, true)
 
   /**
-   * Scroll with ofset on page load with hash links in the url
+   * Scroll with offset on page load with hash links in the url
    */
   window.addEventListener('load', () => {
     if (window.location.hash) {
@@ -228,6 +229,7 @@
       }, true);
     }
 
+
   });
 
   /**
@@ -266,6 +268,13 @@
     });
   });
 
+document.addEventListener('aos:in:obras', () => {
+  console.log('animated in');
+});
+
+document.addEventListener('aos:out:obras', () => {
+  console.log('animated out');
+});
 })()
 
 
@@ -302,6 +311,9 @@
  }
  });
  });
+
+
+
 
 
 

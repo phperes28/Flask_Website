@@ -18,12 +18,6 @@ mail = Mail(app)
 ckeditor = CKEditor(app)
 Bootstrap(app)
 
-
-
-
-
-
-
 #Funcionando UTF-8
 @app.route("/", methods=["GET", "POST"])
 def home():
